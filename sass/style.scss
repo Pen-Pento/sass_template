@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+// SMACSSのCSS設計方法をベースに記述する。
+// ネストは2階層目まで
+@import "setting/color";
+@import "setting/size";
+@import "setting/typography";
+@import "base/base";
+
+/* ==============================================================
+*  レイアウト
+* ============================================================ */
+@import "layout/header";
+@import "layout/top";
+@import "layout/main";
+@import "layout/footer";
+
+/* ==============================================================
+*  モジュール（汎用的に使用できるスタイル）
+* ============================================================ */
+@import "module/button";      // ボタン
+@import "module/form";        // フォーム
+@import "module/title";
+@import "module/label";
+
+body {
+    font-style: $ff-base;
+    font-size: $fz-base;
+}

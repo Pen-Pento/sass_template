@@ -1,0 +1,20 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    background-color: $bg-color;
+}
+
+a {
+    text-decoration: none;
+    color: $txt-color;
+    &:link {
+        color: $txt-color;
+    }
+
+    &:active {
+        color: $txt-color;
+    }
+}
